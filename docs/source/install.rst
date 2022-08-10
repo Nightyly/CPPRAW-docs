@@ -5,7 +5,7 @@ Using cmake
 Installation using cmake is simple, you just have to compile CPPRAW's source and fetch both nlhomann/json and libcpr using FetchContent.
 Add this to your CMakeLists.txt:
 
-.. code-block::
+.. code:: 
     add_executable(your_proyect main.cpp CPPRAW/*.cpp)
 
     include(FetchContent)
