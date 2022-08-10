@@ -24,5 +24,5 @@ Manual installation
 -------------------
 You can probably manually install both `libcpr`_ and `nlohmann/json`_, but preferrably use FetchContent.
 
-.._libcpr: https://github.com/libcpr/cpr
-.._nlohmann/json: https://github.com/nlohmann/json
+.. _libcpr: https://github.com/libcpr/cpr
+.. _nlohmann/json: https://github.com/nlohmann/json
