@@ -7,7 +7,10 @@ Add this to your CMakeLists.txt:
 
 .. code-block:: cmake
 
-    add_executable(your_proyect main.cpp CPPRAW/*.cpp)
+    cmake_minimum_required(VERSION 3.20)
+    project(your_project)
+
+    add_executable(your_project main.cpp CPPRAW/*.cpp)
 
     include(FetchContent)
 
@@ -17,8 +20,8 @@ Add this to your CMakeLists.txt:
     FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.1/json.tar.xz)
     FetchContent_MakeAvailable(json)
 
-    target_link_libraries(your_proyect PRIVATE nlohmann_json::nlohmann_json)
-    target_link_libraries(your_proyect PRIVATE cpr::cpr)
+    target_link_libraries(your_project PRIVATE nlohmann_json::nlohmann_json)
+    target_link_libraries(your_project PRIVATE cpr::cpr)
 
 Manual installation
 -------------------
