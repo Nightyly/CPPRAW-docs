@@ -7,8 +7,10 @@ Description
 -----------
 CPPRAW's main class, this must be the first class to be instantiated.
 
-.. code::
-    cppraw::reddit reddit("client-id", "client-secret", "reddit-user", "reddit-password", "user-agent");
+.. code-block:: cpp
+    :linenos:
+    
+    cppraw::reddit reddit("client-id", "client-secret","reddit-user", "reddit-password", "user-agent");
 
 Member functions
 ----------------
@@ -20,7 +22,7 @@ Parameters:
 
     std::string subreddit //the name of the subreddit you wish to look for
 
-.. code::
+.. code-block:: cpp
     cppraw::subreddit subreddit = reddit.subreddit("cpp");
 
 
@@ -30,7 +32,7 @@ Description
 -----------
 This class lets you interact with a subreddit.
 
-.. code::
+.. code-block:: cpp
     cppraw::subreddit subreddit = reddit.subreddit("cpp");
 Member functions
 ----------------
