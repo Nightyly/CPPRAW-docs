@@ -22,7 +22,7 @@ Parameters:
     std::string subreddit //the name of the subreddit you wish to look for
 
 .. code-block:: cpp
-
+    
     cppraw::subreddit subreddit = reddit.subreddit("cpp");
 
 
