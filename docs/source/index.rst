@@ -10,5 +10,5 @@ Contents
 
 .. toctree::
 
-   api
    install
+   api
