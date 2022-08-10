@@ -11,7 +11,8 @@ Add this to your CMakeLists.txt:
 
     include(FetchContent)
 
-    FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git GIT_TAG 871ed52d350214a034f6ef8a3b8f51c5ce1bd400)
+    FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
+                             GIT_TAG 871ed52d350214a034f6ef8a3b8f51c5ce1bd400)
     FetchContent_MakeAvailable(cpr)
     FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.1/json.tar.xz)
     FetchContent_MakeAvailable(json)
@@ -23,5 +24,5 @@ Manual installation
 -------------------
 You can probably manually install both `libcpr`_ and `nlohmann/json`_, but preferrably use FetchContent.
 
-_libcpr: https://github.com/libcpr/cpr
-_nlohmann/json: https://github.com/nlohmann/json
+.._libcpr: https://github.com/libcpr/cpr
+.._nlohmann/json: https://github.com/nlohmann/json
