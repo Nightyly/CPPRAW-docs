@@ -10,7 +10,7 @@ Add this to your CMakeLists.txt:
     cmake_minimum_required(VERSION 3.20)
     project(your_project)
 
-    add_executable(your_project main.cpp CPPRAW/*.cpp)
+    add_executable(your_project main.cpp CPPRAW/cppraw.cpp CPPRAW/subreddit.cpp CPPRAW/post.cpp)
 
     include(FetchContent)
 
