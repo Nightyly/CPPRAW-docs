@@ -4,6 +4,7 @@
 
 project = 'CPPRAW'
 author = 'Nightyly'
+copyright = '2022 Nightyly'
 
 version = '0.0.1'
 
