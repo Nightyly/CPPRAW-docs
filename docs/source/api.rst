@@ -46,6 +46,7 @@ Parameters:
     std::string before //the post before which to return posts, defaults to ""
 
 Returns std::vector of cppraw::post objects
+
 .. code-block:: cpp
 
     std::vector<cppraw::post> posts = reddit.subreddit("cpp").recent();
@@ -61,6 +62,7 @@ Parameters:
     std::string before //the post before which to return posts, defaults to ""
 
 Returns std::vector of cppraw::post objects
+
 .. code-block:: cpp
 
     std::vector<cppraw::post> posts = reddit.subreddit("cpp").recent();
@@ -76,6 +78,7 @@ Parameters:
     std::string before //the post before which to return posts, defaults to ""
 
 Returns std::vector of cppraw::post objects
+
 .. code-block:: cpp
 
     std::vector<cppraw::post> posts = reddit.subreddit("cpp").recent();
@@ -91,6 +94,7 @@ Parameters:
     std::string before //the post before which to return posts, defaults to ""
 
 Returns std::vector of cppraw::post objects
+
 .. code-block:: cpp
 
     std::vector<cppraw::post> posts = reddit.subreddit("cpp").recent();
@@ -106,6 +110,7 @@ Parameters:
     std::string before //the post before which to return posts, defaults to ""
 
 Returns std::vector of cppraw::post objects
+
 .. code-block:: cpp
 
     std::vector<cppraw::post> posts = reddit.subreddit("cpp").recent();
@@ -118,6 +123,7 @@ Gets a random post from the subreddit.
 Parameters:
     none
 Returns cppraw::post object
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").random();
@@ -128,6 +134,7 @@ Gets a post from the subreddit.
 Parameters:
     std::string id //the id of the post you wish to get
 Returns cppraw::post object
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -145,6 +152,7 @@ Gets the title of the post.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -155,6 +163,7 @@ Gets the id of the post.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -165,6 +174,7 @@ Gets the subreddit of the post.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -175,6 +185,7 @@ Gets the author of the post.
 Parameters:
     none
 Returns std::string (for now, will be changed to cppraw::user)
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -185,6 +196,7 @@ Gets the flair of the post if it exists.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -195,6 +207,7 @@ Gets the downvotes of the post.
 Parameters:
     none
 Returns uint64_t
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -205,6 +218,7 @@ Gets the upvotes of the post.
 Parameters:
     none
 Returns uint64_t
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -215,6 +229,7 @@ Gets the type of the post.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -227,6 +242,7 @@ Gets a link to the media of the post.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -237,6 +253,7 @@ Gets the id of the parent of the post if the post is a crosspost.
 Parameters:
     none
 Returns std::string
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
@@ -247,6 +264,7 @@ Returns whether or not the post is a crosspost.
 Parameters:
     none
 Returns bool
+
 .. code-block:: cpp
 
     cppraw::post post = reddit.subreddit("cpp").get_post("vqy0rt");
